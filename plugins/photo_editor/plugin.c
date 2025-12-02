@@ -41,9 +41,6 @@
 /* Global plugin instance */
 PhotoEditorPlugin *photo_editor_plugin = NULL;
 
-/* Global plugin instance */
-PhotoEditorPlugin *photo_editor_plugin = NULL;
-
 /* Parent class. Part of standard class definition */
 static gpointer parent_class;
 

@@ -38,8 +38,6 @@
 /* Global plugin instance */
 DetailsEditorPlugin *details_editor_plugin = NULL;
 
-/* Global plugin instance */
-DetailsEditorPlugin *details_editor_plugin = NULL;
 #include "details.h"
 #include "details_editor_actions.h"
 

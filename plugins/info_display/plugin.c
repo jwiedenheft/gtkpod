@@ -38,8 +38,6 @@
 /* Global plugin instance */
 InfoDisplayPlugin *info_display_plugin = NULL;
 
-/* Global plugin instance */
-InfoDisplayPlugin *info_display_plugin = NULL;
 #include "info.h"
 #include "infoview.h"
 
