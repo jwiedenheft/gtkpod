@@ -36,6 +36,12 @@
 #include "libgtkpod/stock_icons.h"
 #include "libgtkpod/directories.h"
 #include "plugin.h"
+
+/* Global plugin instance */
+CorePrefsPlugin *core_prefs_plugin = NULL;
+
+/* Global plugin instance */
+CorePrefsPlugin *core_prefs_plugin = NULL;
 #include "core_prefs.h"
 
 #define PREFERENCE_ICON "core_prefs-gtkpod-category"

@@ -34,6 +34,12 @@
 #include "libgtkpod/gtkpod_app_iface.h"
 #include "libgtkpod/directories.h"
 #include "plugin.h"
+
+/* Global plugin instance */
+DetailsEditorPlugin *details_editor_plugin = NULL;
+
+/* Global plugin instance */
+DetailsEditorPlugin *details_editor_plugin = NULL;
 #include "details.h"
 #include "details_editor_actions.h"
 

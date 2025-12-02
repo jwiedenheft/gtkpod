@@ -34,6 +34,12 @@
 #include "libgtkpod/gtkpod_app_iface.h"
 #include "libgtkpod/directories.h"
 #include "plugin.h"
+
+/* Global plugin instance */
+InfoDisplayPlugin *info_display_plugin = NULL;
+
+/* Global plugin instance */
+InfoDisplayPlugin *info_display_plugin = NULL;
 #include "info.h"
 #include "infoview.h"
 

@@ -36,6 +36,12 @@
 #include "libgtkpod/stock_icons.h"
 #include "libgtkpod/directories.h"
 #include "plugin.h"
+
+/* Global plugin instance */
+SJCDPlugin *sjcd_plugin = NULL;
+
+/* Global plugin instance */
+SJCDPlugin *sjcd_plugin = NULL;
 #include "sj-main.h"
 #include "sj-prefs.h"
 

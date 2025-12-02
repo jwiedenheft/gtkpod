@@ -34,8 +34,14 @@
 #include "libgtkpod/gtkpod_app_iface.h"
 #include "libgtkpod/directories.h"
 #include "plugin.h"
+
+/* Global plugin instance */
+RepositoryEditorPlugin *repository_editor_plugin = NULL;
 #include "repository.h"
 #include "repository_actions.h"
+
+/* Global plugin instance */
+RepositoryEditorPlugin *repository_editor_plugin = NULL;
 
 /* Parent class. Part of standard class definition */
 static gpointer parent_class;
